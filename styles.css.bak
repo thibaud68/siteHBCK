@@ -1,0 +1,41 @@
+
+/*jaune  fond */
+
+html, body, main{
+     background-color: #ffc107;
+}
+
+/*navbar fixe*/
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    
+}
+/*marge entre le header(navbar) et le main*/
+main{
+  margin-top: 15%;
+}
+
+/* button gradient 
+.gradient-buttons .btn {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.5), rgba(255,255,255,0.2) 49%, rgba(0,0,0,0.15) 51%, rgba(0,0,0,0.05));
+    background-repeat: repeat-x;
+}*/
+
+
+
+/* ombre vers le bas */
+header, img, table{
+  box-shadow: 0px 5px 15px #2c2a00;
+  }
+
+main < img{
+	margin: 2%;
+	
+}
+
+
+

@@ -1,0 +1,561 @@
+/* *********CSS pour tout les environements**********************************/
+/* code hexa des couleur de base
+(jaune orange) #ffcc00
+(anthracite) #333333
+(blanc) #ecf0f1
+(couleur table-dark) #212529
+  /*fond jaune #f2ca27
+bleu #34495e
+  blanc #ecf0f1
+  */
+  /* Fonts special 
+  font-family: 'Abril Fatface', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: Arial, Helvetica, sans-serif;
+  */
+/* Facebook */
+.fa-facebook {
+  background: #3B5998 !important;
+  color: white  !important;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE  !important;
+  color: white  !important;
+}
+
+  @font-face {
+font-family: "college";
+src: url("fonts/COLLEGE_NCV.ttf") format("truetype") ;
+}
+@font-face {
+  font-family: "scoring";
+  src: url("fonts/CursedTimerULiL.ttf") format("truetype") ;
+  }
+  @font-face {
+    font-family: "scoringTPF";
+    src: url("fonts/TPF Display.ttf") format("truetype") ;
+    }
+  @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"); 
+   
+html,
+body,
+main {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #131212 !important;
+}
+
+header{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #272726 !important;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa {
+  top: 3px;
+  line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+}
+
+
+
+
+/* BORDURE TESTE  
+.testeBorder{ 
+  border: solid 1px;
+  border-color:#f01313;
+}
+.testeBorderImg{ 
+  border: solid 3px;
+  border-color:#13f04a;
+}
+DIV */
+.blancTexte{
+  color:#ecf0f1;
+}
+
+
+.FDJaune{ 
+  background-color: #f2ca27;
+  color:#34495e;
+}
+.bordureJaune{
+  color:#ecf0f1;
+  border: solid 5px;
+  border-color:#f2ca27;
+}
+.jauneTexte{
+  color:#f2ca27;
+}
+.form-group label{
+  color:#f2ca27;
+}
+
+span.TITREJaune  {
+  box-sizing: border-box;
+  color:#f2ca27;
+  font-size: 2em;
+}
+
+.FDNoir{ 
+  background-color: #131212;
+  color:#ecf0f1;
+}
+.FDNoirClair{ 
+  background-color: #181717;
+  color:#ecf0f1;
+}
+.FDbleu{ 
+  background-color: #34495e;
+}
+ .Marge_bas{
+   margin: 5px;
+   border:solid 2px;
+   border-color:white;
+ }
+ .CadreInterne{
+   margin:5%;
+ }
+
+ .ht{
+width: 15%;
+margin-top:5%;
+}
+#tailleMax{
+ 
+  width: 100%;
+  height: auto;
+  /* -- OR -- */
+  /* width: auto; 
+     height: 100%; */
+}
+
+label{
+  color:#ecf0f1;
+}
+/*partenaire accueil centre*/
+.space {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+ 
+}
+
+.TexteJustif{
+  text-align: justify
+}
+/***MENU*******************************
+*
+*/
+/* enleve les puces */
+ ul, li{
+  list-style-type: none;
+}
+/*Article***********/
+.article_blanc{
+  background-color: #ecf0f1;
+}
+.TexteArticle{
+  width: 100%;
+  text-align: center;
+  color:#ecf0f1;
+  
+}
+/*Flux RSS***********/
+
+.FlurssInfo{
+  color:#ecf0f1;
+  font-family: 'Roboto', sans-serif;
+  background-color: #181717;
+  color:#ecf0f1 !important;
+}
+/*Bordure pour les P ***********/
+.BorderP{
+  width: 100%;
+  text-align: center;
+  color:#ecf0f1;
+
+}
+/*Tableaux***/
+
+table {
+  margin:0;
+  text-align: center;
+  width: 100%;
+  background-color:#f2ca27; 
+  color: #181717;
+  border: solid 1px;
+  border-color:#f2ca27;
+
+}
+thead{
+  font-size: 1em;
+}
+/* Th fond colore*/
+
+ tbody{
+  border: solid 1px;
+  border-color:#181717;
+  font-size: 0.9em;
+}
+
+/*Tableaux Accueil special SCORe MODE*/
+/* map ************************/
+#Carteiframe {
+  width: 100%;
+  height:100%;
+  border-color:#f2ca27;
+  
+}
+
+
+
+/* texte sur image et carroussel */
+.legende {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color:#181717;
+  opacity: 0.3;
+  -webkit-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+  }
+
+.FDNoirClair:hover .legende {
+  opacity:1;
+  color:#ecf0f1;
+  }
+
+  .legendeFixe {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background-color:#181717;
+    color:#ecf0f1;
+    -webkit-transition: opacity .5s ease;
+    transition: opacity .5s ease;
+    }
+
+ .divBackground{
+    border-color:#ecf0f1;
+   margin-bottom:5px;
+   
+  }
+video{
+  width: 100%;
+  border: solid 5px;
+  border-color:#f2ca27;
+}
+
+
+
+
+/*Passage sous menu souris en jaune*/
+a.dropdown-item:hover {
+  background-color:#f2ca27;
+  color: rgb(0, 0, 0);
+}
+
+a.btn-perso {
+  background-color: #f2ca27;
+  border:0;
+  border-radius:0;
+  box-sizing: border-box;
+  color: #181717;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: .375rem .75rem;
+  text-align: center;
+  text-decoration: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+}
+
+a.btn-perso:hover {
+  background-color: #181717;
+  border-color: #181717;
+  color: #fff;
+}
+button#dropdownMenuButton.btn.btn-perso2.dropdown-toggle  {
+  -webkit-appearance: button;
+  background-color: #f2ca27;
+  border:0;
+  border-radius:0;
+  box-sizing: border-box;
+  color: #181717;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  overflow: visible;
+  padding: .375rem .75rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button.dropdown-toggle:hover {
+  background-color: #171817;
+  border-color: #171817;
+  text-decoration: none;
+}
+
+@media only screen and (min-width : 1085px){
+
+ 
+  div#navbarSupportedContent.collapse.navbar-collapse  {
+    align-items: stretch;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+  }
+
+
+  
+ /* no-gutters Class Rules */
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+/*pour les images flotantes a droite*/
+.imgdroite{
+  float: right;
+}
+.imggauche{
+  float: left;
+}
+ 
+/*logo du header et private*/
+header #logo {
+  width: 38px;
+margin-right: 25%;
+}
+header #logoFeminin{
+  width: 38px;
+  width: 300px;
+}
+
+
+}
+@media all and (orientation: portrait),(max-width : 1085px)  {
+  header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #272726 !important;
+     width: 100%;
+     height: 20%;
+     
+  }
+  header #logo {
+    width: 38px;
+  margin-right: 0;
+  }
+/*Passage sous menu souris en jaune*/
+a.dropdown-item:hover {
+  background-color:#f2ca27;
+  color: rgb(0, 0, 0);
+}
+/* elargie les boutons en mode smartphone */
+a.btn-perso {
+  color: #181717;
+  display: block;
+    width: 100%;
+    border:solid 1px;
+    border-color:#181717; 
+}
+/* hover passage de souris, changement d etat*/
+a.btn-perso:hover {
+  background-color: #181717;
+  border-color: #181717;
+  color: #fff;
+}
+button#dropdownMenuButton.btn.btn-perso2.dropdown-toggle  {
+  -webkit-appearance: button;
+  background-color: #f2ca27;
+  width: 100%;
+  border:solid 1px;
+  border-radius:0;
+  box-sizing: border-box;
+  color: #181717;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  overflow: visible;
+  padding: .375rem .75rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+button#dropdownMenuButton.btn.btn-perso2.dropdown-toggle:hover{
+  background-color: #181717;
+  border-color: #181717;
+  color: #fff;
+}
+
+button.dropdown-toggle:hover {
+  background-color: #171817;
+  border-color: #171817;
+  text-decoration: none;
+}
+
+ 
+  
+ 
+
+  /*burger*/
+  span.navbar-toggler-icon  {
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    color: rgb(143, 29, 29) !important;
+    content: "";
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
+    width: 1.5em;
+  }
+  
+  button.collapsed:hover {
+    text-decoration: none;
+  }
+
+  html,body,main {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #181717 !important;
+  word-wrap: break-word;
+}
+
+.navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+  text-align: center;
+  display: table-cell;
+  height: 70px;
+  vertical-align: middle;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+  display: block;
+  width: 48px;
+  margin: 2px auto 4px auto;
+  top: 0;
+  line-height: 24px;
+}
+
+.navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+  top: -7px;
+}
+
+ 
+  .ht{
+    width:40%;
+    margin-top:5%;
+    }
+    .container-fluid h2{
+    font-size: 1em;
+    }
+
+ 
+/* taille Image 100% */
+
+#imgTailleLimit_01 {
+  width: 100%;
+  padding:10px;
+  margin-bottom: 5%;
+}
+
+/*logo du header et private*/
+#logo {
+  width: auto;
+}
+#logoFeminin{
+  width: 0;
+}
+#login-dp{
+  background-color: inherit;
+  color: #fff;
+}
+#login-dp .bottom{
+  background-color: inherit;
+  border-top:0 none;
+}
+#login-dp{
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow:hidden;
+  background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+  font-size:12px    
+}
+#login-dp .bottom{
+  background-color:rgba(255,255,255,.8);
+  border-top:1px solid #ddd;
+  clear:both;
+  padding:14px;
+}
+#login-dp .social-buttons{
+  margin:12px 0    
+}
+#login-dp .social-buttons a{
+  width: 49%;
+}
+#login-dp .form-group {
+  margin-bottom: 10px;
+}
+.btn-fb{
+  color: #fff;
+  background-color:#3b5998;
+}
+.btn-fb:hover{
+  color: #fff;
+  background-color:#496ebc 
+}
+.btn-tw{
+  color: #fff;
+  background-color:#55acee;
+}
+.btn-tw:hover{
+  color: #fff;
+  background-color:#59b5fa;
+}
+ 
+
+}
